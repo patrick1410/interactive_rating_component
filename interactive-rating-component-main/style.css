@@ -1,0 +1,188 @@
+body,
+html {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400px;
+  color: hsl(216, 12%, 54%);
+}
+
+.rating-card {
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.content {
+  padding: 10%;
+}
+
+.star-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 21%);
+}
+
+.star {
+  width: 17px;
+  height: 16px;
+  position: relative;
+  left: 32%;
+  top: 32%;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.rating-p {
+  margin-bottom: 25px;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 21%);
+}
+
+.box:hover {
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+span {
+  position: relative;
+  left: 41%;
+  top: 30%;
+  color: hsl(216, 12%, 54%);
+}
+
+.box:hover > span {
+  color: hsl(0, 0%, 100%);
+}
+
+.box:active > span {
+  color: hsl(0, 0%, 100%);
+}
+
+.box.clicked {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.box.clicked span {
+  color: hsl(0, 0%, 100%);
+}
+
+.btn {
+  padding: 15px 130px;
+  border-radius: 50px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transition: 0.1s;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*Thank card*/
+.thank-card {
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.result {
+  border: none;
+  border-radius: 25px;
+  width: 190px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsl(213, 19%, 21%);
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(35, 90%, 53%);
+  font-weight: 400;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.thank-msg {
+  text-align: center;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: -15px;
+}
+
+.hide {
+  display: none;
+}
+
+#rate {
+  display: inline;
+}
